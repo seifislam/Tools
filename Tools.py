@@ -98,7 +98,8 @@ e-lazy
 
 
              '''
-       os.system('apt-get install python')
+         print 'plz waite .....'
+       os.system('apt-get install python && apt-get update')
        file = open("use python.txt", "write")
        data = file.write("for use python following this: \n go to terminal and wrilte this: python or python3 or python3.7") 
     elif ch == '4':
