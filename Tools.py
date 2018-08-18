@@ -1,6 +1,11 @@
 # Tools
+#/////////////// imports //////////////////
 import os
 from platform import system
+import time
+import sys
+#//////////////////////////////////////////
+print time.asctime()
 def clear():
    os.system('clear')
 
@@ -27,11 +32,12 @@ TTTTTT  T:::::T  TTTTTTO::::::O   O::::::OO::::::O   O::::::O l::::l
 print banner
 def menu():
     print '''
+TOOLS:    
 1/updata && upgrade
 2/install cython
 3/install python
 4/perl
-Tools:
+program:
 a-xerosploit
 b-SocialFish
 c-noip
@@ -219,4 +225,5 @@ $$ |
        os.system('git clone https://github.com/arismelachroinos/lscript.git')
     else:
        print " [!] [!] Error [!][!] "
+       sys.exit()
 menu()
