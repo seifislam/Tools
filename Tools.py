@@ -12,7 +12,7 @@ def clear():
 banner = ['''
                                                                      
 TTTTTTTTTTTTTTTTTTTTTTT     OOOOOOOOO          OOOOOOOOO     lllllll 
-T:::::::::::::::::::::T   OO:::::::::OO      OO:::::::::OO   l:::::l   0.2.2v
+T:::::::::::::::::::::T   OO:::::::::OO      OO:::::::::OO   l:::::l   0.2.3v
 T:::::::::::::::::::::T OO:::::::::::::OO  OO:::::::::::::OO l:::::l 
 T:::::TT:::::::TT:::::TO:::::::OOO:::::::OO:::::::OOO:::::::Ol:::::l 
 TTTTTT  T:::::T  TTTTTTO::::::O   O::::::OO::::::O   O::::::O l::::l 
